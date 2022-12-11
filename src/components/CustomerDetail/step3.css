@@ -1,0 +1,46 @@
+.customer-det-container{
+    width: 80vw;
+    margin: 2rem auto;
+
+    background-color: rgb(231, 243, 243);
+}
+.perosonal-detail{
+    border-bottom: 1px solid rgb(14, 13, 13);
+    padding:2vmax ;
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+.perosonal-detail h3{
+    text-align: left;
+}
+.perosonal-detail input{
+    padding: 1rem;
+}
+.perosonal-detail textarea{
+    padding: 2rem 0;
+}
+.payment-method{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    padding:2vmax ;
+}
+.p-bx{
+    display: flex;
+    gap: 2rem;
+}
+.b-btn{
+    padding:2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.b-btn button{
+    padding: 1rem 2rem;
+   border: none;
+   outline: none;
+   background-color: rgb(189, 104, 104);
+   color: white;
+
+}

@@ -1,0 +1,82 @@
+.book-det-sum{
+    width: 80vw;
+    margin: 2rem auto;
+    padding: 2vmax;
+    background-color: rgb(231, 243, 243);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.left{
+    background-color: azure;
+    width: 40vw;
+    height: 60vh;
+}
+.bxx{
+    padding: 2vmax;
+    display: flex;
+    justify-content: space-between;
+}
+.bxx div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right{
+    background-color: azure;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.top{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.mid div{
+    background-color: rgb(35, 35, 64);
+    color: white;
+    width: 10vw;
+    margin: 1rem;
+    padding: 1rem;
+}
+.sp{
+    background-color: white !important;
+    color: black !important;
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.bottom textarea,button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    margin-block: 1rem;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bottom button{
+    border: none;
+    outline: none;
+    background-color: crimson;
+    color: white;
+}

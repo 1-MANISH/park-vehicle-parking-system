@@ -1,0 +1,8 @@
+.header-container{
+    text-align: center;
+    padding: 2vmax;
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+}
